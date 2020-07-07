@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="panel">
+            <div class="heading">
+                <h3 class="heading-text">Tip Calculator</h3>
+            </div>
+            <hr>
+            <div class="input">
+                <input type="number" name="bill" id="bill" placeholder="Bill ($)" required>
+                <select name="rating" id="rating" required>
+                    <option value="" disabled selected>Rating</option>
+                    <option value="1">1 star (BAD)</option>
+                    <option value="2">2 star (satisfactory)</option>
+                    <option value="3">3 star (Okay)</option>
+                    <option value="4">4 star (Good)</option>
+                    <option value="5">5 star (Execellent)</option>
+                </select>
+                <button class="calc_btn">Calculate tip</button>
+            </div>
+            <div class="output">
+                <h1 class="tip-output">calculated tip goes here...</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
