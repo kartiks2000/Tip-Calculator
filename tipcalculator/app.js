@@ -24,7 +24,7 @@ btn.addEventListener("click",function(){
     {
         tip=0.15*cost;
     }
-    if(star=="2")
+    if(star=="4")
     {
         tip=0.2*cost;
     }
